@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import CustomComponent from './CustomComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={'http://10.195.118.144:5000/video_feed'} className="App-logo" alt="logo" />
-      </header>
+      <body className="App-header">
+        <img src={'http://10.195.118.144:5000/video_feed'} className="video-img" alt="logo" />
+        <CustomComponent />
+      </body>
     </div>
   );
 }

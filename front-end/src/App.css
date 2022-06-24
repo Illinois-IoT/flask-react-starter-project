@@ -142,3 +142,13 @@ h2 {
   background-color: var(--dark-color);
   border: 5px solid var(--light-color) !important;
 }
+
+.video-img {
+  height: auto;
+  width: 100vw;
+}
+
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+}
